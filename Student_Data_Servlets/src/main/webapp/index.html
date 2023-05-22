@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Student Form</title>
+<style type="text/css">
+
+input {
+	padding: 20px;
+	border-color: black;
+	background-color: yellow;
+	margin: 10px;
+	
+}
+#red{
+text-align: center;
+background-color: orange;
+
+}
+.bit{
+background-color: red;
+}
+.sub{
+background-color: red;
+}
+</style>
+</head>
+<body id="red">
+<h1>INSERT DETAILS...</h1>
+	<form action="FirstStudent" method="post">
+	&emsp;
+	Hall Ticket No:<input type="text" name="hallticketno" placeholder="Enter the Hall Ticket No" >&emsp;
+	Name:<input type="text" name="name" placeholder="Enter the Name" ><br>
+	Telugu:<input type="text" name="tel" placeholder="Enter the Telugu-M" >&emsp;
+	Hindi:<input type="text" name="hid" placeholder="Enter the Hindi-M" >&emsp;
+	English:<input type="text" name="eng" placeholder="Enter the English-M"> <br>
+	Maths:<input type="text" name="maths" placeholder="Enter the Maths-M" > &emsp;
+	Science:<input type="text" name="science" placeholder="Enter the Science-M" > &emsp;
+	Social:<input type="text"name="social" placeholder="Enter the Social-M" ><br>
+	<br>
+	<div class="bit"><button type="submit">Insert Record</button></div>
+	
+	</form>
+	<hr>
+	<h1>VIEW RESULTS...</h1>
+	<form action="HallTicket" method="get" >
+	Hall Ticket No: <input type="text" name="hallticketno." placeholder="Enter the Hall Ticket No" ><br>
+	<br>
+	<div class="sub"><button type="submit">Submit</button></div>
+	</form>
+</body>
+</html>
